@@ -1,9 +1,9 @@
-# Rori Kurniadi Test
+# Simple Auth
 This is simple auth build with golang and VueJs
 
 # Golang API
 ## Installation
-go get bitbucket.org/rorikurniadi/rori_kurniadi_test
+go get github.com/rorikurniadi/simple-auth
 
 ## Config
 modify config in configs directory. (configs/config)
@@ -27,6 +27,3 @@ You need modify endpoint golang in views/src/services/main.VueJs
 ```
 npm run dev
 ```
-
-# Demo
-this is demo [SimpleAuth] (http://139.59.98.7/)
