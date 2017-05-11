@@ -1,4 +1,4 @@
-export const API_URL = 'http://simple-auth.dev/api';
+export const API_URL = 'http://linkedin-oauth.dev/api';
 export const LOGIN_URL = `${API_URL}/auth`;
 export const SIGNUP_URL = `${API_URL}/register`;
 export const LINKEDIN_URL = `${API_URL}/linkedin_url`;

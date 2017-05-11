@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"bitbucket.org/rorikurniadi/rori_kurniadi_test/middleware"
-	"bitbucket.org/rorikurniadi/rori_kurniadi_test/models"
+	"github.com/rorikurniadi/simple-auth/middleware"
+	"github.com/rorikurniadi/simple-auth/models"
 
 	"golang.org/x/crypto/bcrypt"
 

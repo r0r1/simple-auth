@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"bitbucket.org/rorikurniadi/rori_kurniadi_test/models"
+	"github.com/rorikurniadi/simple-auth/models"
 
 	"github.com/asaskevich/govalidator"
 )

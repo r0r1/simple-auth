@@ -1,7 +1,7 @@
 package models
 
 import (
-	config "bitbucket.org/rorikurniadi/rori_kurniadi_test/configs"
+	config "github.com/rorikurniadi/simple-auth/configs"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"

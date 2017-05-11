@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"bitbucket.org/rorikurniadi/rori_kurniadi_test/models"
+	"github.com/rorikurniadi/simple-auth/models"
 
-	config "bitbucket.org/rorikurniadi/rori_kurniadi_test/configs"
+	config "github.com/rorikurniadi/simple-auth/configs"
 
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/linkedin"

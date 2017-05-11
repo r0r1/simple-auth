@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"time"
 
-	"bitbucket.org/rorikurniadi/rori_kurniadi_test/models"
-
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/jinzhu/gorm"
+	config "github.com/rorikurniadi/simple-auth/configs"
+	"github.com/rorikurniadi/simple-auth/models"
 )
 
 // Auth DB initializes the storage
@@ -37,12 +37,13 @@ type MyCustomClaims struct {
 
 // Create the Claims
 func CreateClaim(user *models.User) (string, bool) {
+	var config = config.ReadConfig()
 	claims := &MyCustomClaims{
 		user.Email,
 		jwt.StandardClaims{
 			ExpiresAt: time.Now().Add(time.Hour).Unix(),
 			Id:        strconv.Itoa(int(user.ID)),
-			Issuer:    "localhost:8000",
+			Issuer:    config.APP_URL,
 		},
 	}
 
