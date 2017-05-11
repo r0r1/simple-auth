@@ -27,3 +27,7 @@ You need modify endpoint golang in views/src/services/main.VueJs
 ```
 npm run dev
 ```
+
+## To Do
+- Forgot Password
+- Send Email (Forgot Password / Activation)
